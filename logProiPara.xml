@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+	<parameter name="url"
+		value="https://practicetestautomation.com/practice-test-login/" />
+	<parameter name="a" value="student" />
+	<parameter name="b" value="Password123" />
+
+	<test name="test1">
+		<classes>
+			<class name="com.tests.logProiPara" />
+		</classes>
+	</test>
+
+
+	<test name="test3">
+		<parameter name="a" value="student" />
+		<parameter name="b" value="0" />
+		<classes>
+			<class name="com.tests.logProiPara" />
+		</classes>
+	</test>
+	<test name="test2">
+		<parameter name="a" value="student" />
+		<parameter name="b" value="8" />
+		<classes>
+			<class name="com.tests.logProiPara">
+				<methods>
+					<include name="urlClick" />
+					<include name="enterData" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
