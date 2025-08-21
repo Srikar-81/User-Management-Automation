@@ -6,6 +6,8 @@
             that I executed as part of my learning journey. 
             The tests cover various basic features of TestNG, including 
             test groups, dependencies, parameterization, and logging.
+
+This project and its code are intended for educational purposes and have been committed to GitHub as part of the learning process.
             
 **Technologies used**
 
