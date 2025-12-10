@@ -1,4 +1,4 @@
-**TestNG Learning Project**
+**User Management Automation**
 
 **Overview**
 
